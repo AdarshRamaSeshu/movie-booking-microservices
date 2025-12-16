@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: PaymentModule
+    port: 8081
+  
+  datasource:
+    url: jdbc:mysql://localhost:3306/payments_database
+    username: root
+    password: Admin123$
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate: 
+      ddl-auto: update 
+    show-sql: true
+    dialect: org.hibernate.dialect.MySQLDialect
+
+
+  
+  
+razorpay:
+  key_id: rzp_test_Rr4DSIKgejr7mF
+  key_secret: l3l5HdU4urwmH1JZlbkhtyVW
+
+
