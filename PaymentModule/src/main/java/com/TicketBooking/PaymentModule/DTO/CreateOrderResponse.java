@@ -15,5 +15,5 @@ public class CreateOrderResponse {
 
     private String orderId;
     private String key;
-    private Double amount;
+    private Long amount;
 }

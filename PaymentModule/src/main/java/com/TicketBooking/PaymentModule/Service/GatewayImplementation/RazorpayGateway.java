@@ -3,6 +3,7 @@ package com.TicketBooking.PaymentModule.Service.GatewayImplementation;
 import org.bouncycastle.crypto.RuntimeCryptoException;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 
 import com.TicketBooking.PaymentModule.DTO.CreateOrderRequest;
 import com.TicketBooking.PaymentModule.DTO.CreateOrderResponse;
@@ -11,6 +12,7 @@ import com.TicketBooking.PaymentModule.Service.PaymentGateway;
 import com.razorpay.Order;
 import com.razorpay.RazorpayClient;
 
+@Service
 public class RazorpayGateway implements PaymentGateway {
 
     

@@ -3,7 +3,6 @@ package com.TicketBooking.PaymentModule.DTO;
 
 import com.TicketBooking.PaymentModule.Enum.GatewayType;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,7 +16,9 @@ public class CreateOrderRequest {
 
     private String bookinId;
     private String userId;
-    private Double amount;
+    private Long amount;
+    
+
     private GatewayType gateway;
 
 }
